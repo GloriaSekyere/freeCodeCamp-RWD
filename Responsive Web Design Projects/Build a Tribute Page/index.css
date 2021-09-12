@@ -1,0 +1,41 @@
+body {
+  color: #333333;
+  background-color: #EEEEEE;
+  font-family: sans-serif;
+}
+.header {
+    text-align: center;
+    padding-bottom: 5px;
+}
+#img-div {
+    width: 98%;
+    margin: auto;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 6px;
+}
+#tribute-info {
+    width: 40%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+#tribute-info ul {
+    margin-bottom: 40px;
+}
+#tribute-info ul li {
+    line-height: 25px;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+}
+#tribute-info blockquote {
+    line-height: 25px;
+    width: 75%;
+}
+.footer {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.footer a {
+    color: #487CA6;
+}
