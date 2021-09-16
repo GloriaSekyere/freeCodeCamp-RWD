@@ -1,4 +1,8 @@
 /* entire page */
+* {
+    box-sizing: border-box;
+    
+}
 #main {
     display: flex;
     flex-direction: column;
@@ -23,9 +27,11 @@
     background-color: #FFFFFF;
     text-align: center;
 }
-#img {
+#image {
     max-width: 100%;
     height: auto;
+    display: block;
+    margin: auto;
 }
 
 /* tribute info section */

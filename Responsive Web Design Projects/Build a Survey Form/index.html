@@ -9,7 +9,7 @@
 </head>
     
 <body>
-    
+    <div id="main">
     <!-- Header section -->
     <div id="header">
         <h1 id="title">freeCodeCamp Survey  Form</h1>
@@ -23,20 +23,20 @@
           
         <!-- Name input field -->
         <div>
-          <label for="name">Name</label><br>
-          <input id="name" class="textfield" type="text" placeholder="Enter your name">
+          <label id="name-label" for="name">Name</label><br>
+          <input id="name" class="textfield" type="text" placeholder="Enter your name" required>
         </div>
     
         <!-- Email input field -->
         <div>
-          <label for="email">Email</label><br>
-          <input id="email" class="textfield" type="email" placeholder="Enter your email">
+          <label id="email-label" for="email">Email</label><br>
+          <input id="email" class="textfield" type="email" placeholder="Enter your email" required>
         </div>
         
         <!-- Age input field -->
         <div>
-          <label for="age">Age <small>(optional)</small></label><br>
-          <input id="age" class="textfield" type="number" placeholder="Age" min="16" max="65">
+          <label id="number-label" for="number">Age <small>(optional)</small></label><br>
+          <input id="number" class="textfield" type="number" placeholder="Age" min="16" max="65">
         </div>    
         
           
@@ -135,6 +135,6 @@
       </form>
 
   </div>
-    
+  </div>
 </body>
 </html>
